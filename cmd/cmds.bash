@@ -158,3 +158,13 @@ nats --server=localhost:4222 s add OBJ_DMS_MIRROR --source OBJ_dms
 #         First Sequence: 0
 #          Last Sequence: 0
 #       Active Consumers: 0
+
+
+nats --server=localhost:4222 object ls                                                                             
+# ╭────────────────────────────────────────────────────────────────────────╮
+# │                          Object Store Buckets                          │
+# ├────────────┬─────────────┬─────────────────────┬─────────┬─────────────┤
+# │ Bucket     │ Description │ Created             │ Size    │ Last Update │
+# ├────────────┼─────────────┼─────────────────────┼─────────┼─────────────┤
+# │ DMS_MIRROR │             │ 2024-02-18 14:37:47 │ 3.9 GiB │ 1m11s       │
+# ╰────────────┴─────────────┴─────────────────────┴─────────┴─────────────╯
